@@ -30,8 +30,4 @@ jobs:
           BRANCH: master
           FOLDER: build
           TARGET_FOLDER: blog
-          GIT_CONFIG_NAME: rajdeep-das
-          GIT_CONFIG_EMAIL: rajdeepdas.india@gmail.com
           REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
-          CLEAN: true
-          SINGLE_COMMIT: true
