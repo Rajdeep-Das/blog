@@ -28,6 +28,7 @@ jobs:
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_MAIN_SITE }}
           BRANCH: test
-          FOLDER: public
+          FOLDER: build
           TARGET_FOLDER: blog
           REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
+          CLEAN: true

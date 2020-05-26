@@ -11,7 +11,7 @@ handlebars.registerPartial('navigation', fs.readFileSync(__dirname + '/layouts/p
 
 Metalsmith(__dirname)
   .source('src')
-  .destination('public')
+  .destination('build')
   .use(collections({
     articles: {
       pattern: 'articles/*.md',
