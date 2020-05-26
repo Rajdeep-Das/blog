@@ -27,6 +27,6 @@ jobs:
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
           dir: public
-          branch: test
+          branch: test2
           repo: Rajdeep-Das/rajdeep-das.github.io
           token: ${{ secrets.ACCESS_TOKEN_MAIN_SITE }}
