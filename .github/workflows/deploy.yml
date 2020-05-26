@@ -29,7 +29,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_MAIN_SITE }}
           BRANCH: master
           FOLDER: build
-          TARGET_FOLDER: blog
+          TARGET_FOLDER: myblog
           GIT_CONFIG_NAME: rajdeep-das
           GIT_CONFIG_EMAIL: rajdeepdas.india@gmail.com
           REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
