@@ -10,3 +10,4 @@ layout: article.hbs
 * "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." (Martin Golding)
 * "Programming is like sex. One mistake and you have to support it for the rest of your life." (Michael Sinz)
 * "Rajdeep Go ."
+* " Integration testing"
