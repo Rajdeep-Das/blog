@@ -30,6 +30,5 @@ jobs:
           BRANCH: test
           FOLDER: build
           TARGET_FOLDER: blog
-          REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
           CLEAN: true
           SINGLE_COMMIT: true
