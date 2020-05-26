@@ -27,8 +27,11 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.3
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_MAIN_SITE }}
-          BRANCH: test
+          BRANCH: master
           FOLDER: build
           TARGET_FOLDER: blog
+          REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
+          GIT_CONFIG_NAME: rajdeep-das
+          GIT_CONFIG_EMAIL: rajdeepdas.india@gmail.com
           CLEAN: true
           SINGLE_COMMIT: true
