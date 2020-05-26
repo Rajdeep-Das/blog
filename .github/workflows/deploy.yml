@@ -27,7 +27,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.3
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_MAIN_SITE }}
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: build
-          TARGET_FOLDER: blog
-          REPOSITORY_NAME: Rajdeep-Das/rajdeep-das.github.io
+          
+         
