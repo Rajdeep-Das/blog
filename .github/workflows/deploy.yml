@@ -22,8 +22,8 @@ jobs:
       - run: npm install
       - uses: actions/checkout@master
       - name: Build site
-        run: npm install
-        run: "npm run-script build"
+      - run: npm install
+      - run: "npm run-script build"
       - name: Publish to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
